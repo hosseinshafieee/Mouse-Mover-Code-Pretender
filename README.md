@@ -26,16 +26,24 @@ For writing in your editor and moving the mouse:
 
     $ python3 main.py -m both
 
-## Default values
+# Default values
 By default we just use mouse to keep the PC awake
 You can find a good guide by typing ``` $ python3 main.py -h``` in your terminal
 
 **AFK time:** 2m 
 **Random write time:** 1m 
 
-#### Customize the running
+## Customize the running
 
 ``` -s ``` or ``` --seconds ``` : for detecting AFK time 
 
     $ python3 main.py -s 50
-###### Means detect if I am not on computer after 50 seconds
+
+> Means detect if I am not on computer after 50 seconds
+
+
+``` -m ``` or ``` --mode ``` : for choosing the keyboard mode or mouse moving mode or both of them
+
+    $ python3 main.py -s 50
+
+> Means detect if I am not on computer after 50 seconds
