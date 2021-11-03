@@ -15,7 +15,7 @@ You need to install these libraries to start using this ...
     $ pip install pynput
 
 #### Second: run the project
-For running the project run [cd Mouse-Mover-Code-Pretender/] command.  
+For running the project run ```cd Mouse-Mover-Code-Pretender/``` command.  
     Copy and paste these commands in your terminal
 
     $ python3 main.py
