@@ -41,9 +41,28 @@ You can find a good guide by typing ``` $ python3 main.py -h``` in your terminal
 
 > Means detect if I am not on computer after 50 seconds
 
+-------------------------------------------------------
 
 ``` -m ``` or ``` --mode ``` : for choosing the keyboard mode or mouse moving mode or both of them
 
-    $ python3 main.py -s 50
+    $ python3 main.py -m mouse
+    $ python3 main.py -m keyboard
+    $ python3 main.py -m both
 
-> Means detect if I am not on computer after 50 seconds
+-------------------------------------------------------
+
+``` -r ``` or ``` --random ``` : for random typing time
+
+    $ python3 main.py -r 60
+
+> Using more than 60 seconds not recommended
+
+-------------------------------------------------------
+
+``` -p ``` or ``` --pixels ``` : for the moving pixels
+
+    $ python3 main.py -p 50
+
+## Full customization
+for running full customization according to above documentation, you can use the below command to customize your running
+    $ python3 main.py -p 70 -r 10 -s 20 -m both
