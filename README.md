@@ -65,4 +65,5 @@ You can find a good guide by typing ``` $ python3 main.py -h``` in your terminal
 
 ## Full customization
 for running full customization according to above documentation, you can use the below command to customize your running
+    
     $ python3 main.py -p 70 -r 10 -s 20 -m both
