@@ -23,4 +23,16 @@ For running the project run ```cd Mouse-Mover-Code-Pretender/``` command.
     $ python3 main.py
 
 ## Default values
+By default we just use mouse to keep the PC awake
 You can find a good guide by typing ``` $ python3 main.py -h``` in your terminal
+
+**AFK time:** 2m 
+**Random write time:** 1m 
+
+#### Customize the running
+
+``` -s ``` or ``` --seconds ``` : for detecting AFK time 
+
+    $ python3 main.py -s 50
+
+###### Means detect if I am not on computer after 50 seconds
