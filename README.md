@@ -8,7 +8,7 @@ This is a small script to deceive some tracing applications or extensions that i
 ## Steps 
 #### First: install required libraries
 You need to install these libraries to start using this ...  
-    $Copy and paste these commands in your terminal
+    $ Copy and paste these commands in your terminal
 
     $ pip install argparse
     $ pip install time
@@ -16,7 +16,7 @@ You need to install these libraries to start using this ...
 
 #### Second: run the project
 For running the project run ```cd Mouse-Mover-Code-Pretender/``` command.  
-    $Copy and paste these commands in your terminal
+    $ Copy and paste these commands in your terminal
 
     $ python3 main.py
 
