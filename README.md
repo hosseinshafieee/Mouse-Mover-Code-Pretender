@@ -7,10 +7,10 @@ This is a small script to deceive some tracing applications or extensions that i
 
 ## Steps 
 #### First: install required libraries
-You need to install these libraries to start using this ...
-    **Copy and paste these commands in your terminal**
+You need to install these libraries to start using this ...  
+**Copy and paste these commands in your terminal**
 
-        $ pip install argparse
+    $ pip install argparse
 
 
 
