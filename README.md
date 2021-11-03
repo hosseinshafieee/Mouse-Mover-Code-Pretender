@@ -18,8 +18,9 @@ You need to install these libraries to start using this ...
 #### Second: run the project
 For running the project run ```cd Mouse-Mover-Code-Pretender/``` command.  
 
-    # Copy and paste these commands in your terminal
+    # Copy and paste in your terminal
 
     $ python3 main.py
 
 ## Default values
+You can find a good guide by typing ``` $ python3 main.py -h``` in your terminal
