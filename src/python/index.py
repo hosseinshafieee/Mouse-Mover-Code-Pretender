@@ -67,7 +67,7 @@ def start(mouseFile, keyboardFile):
         if is_user_away:
             if (KEYBOARD and MOUSE == False):
                 print('\n       KEYBOARD MODE ENABLED \n')
-                keyboardFile.start(RANDOM_WRITING_TIMER, i)
+                keyboardFile.start(RANDOM_WRITING_TIMER, i, lastSavePosition)
 
             if((MOUSE and KEYBOARD == False) or (MOUSE == False and KEYBOARD == False and BOTH == False)):
                 print('\n       MOUSE MODE ENABLED \n')
@@ -76,7 +76,7 @@ def start(mouseFile, keyboardFile):
 
             if (BOTH):
                 print('\n        BOTH MODE ENABLED \n')
-                keyboardFile.start(RANDOM_WRITING_TIMER, i)
+                keyboardFile.start(RANDOM_WRITING_TIMER, i, lastSavePosition)
                 mouseFile.start(currentPosition, PIXELS)
                 currentPosition = mouse.position
 
